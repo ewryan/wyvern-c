@@ -89,8 +89,8 @@ int main( int argc, char** argv ) {
     // Our proposed FREAK descriptor
     // (roation invariance, scale invariance, pattern radius corresponding to SMALLEST_KP_SIZE,
     // number of octaves, optional vector containing the selected pairs)
-     FREAK extractor(true, true, 50, 10, std::vector<int>());
-    //FREAK extractor;
+//     FREAK extractor(true, true, 50, 10, std::vector<int>());
+    FREAK extractor;
 
     // MATCHER
     // The standard Hamming distance can be used such as
